@@ -31,6 +31,7 @@ def read_conf():
  options.data_folder=Config.get('data', 'data_folder')
  options.output_folder=Config.get('data', 'output_folder')
  options.pt_file=Config.get('data', 'pt_file')
+ options.kl_file=Config.get('data', 'kl_file')
 
  #[windowing]
  options.fs=Config.get('windowing', 'fs')
